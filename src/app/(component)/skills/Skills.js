@@ -70,7 +70,7 @@ function Skills() {
                         <p>75%</p>
                     </div>
                     <div class="bar">
-                        <span class="css"></span>
+                        <span class="solving"></span>
                     </div>
                 </div>
                 <div class="skill-bar">
@@ -79,7 +79,7 @@ function Skills() {
                         <p>82%</p>
                     </div>
                     <div class="bar">
-                        <span class="css"></span>
+                        <span class="React"></span>
                     </div>
                 </div>
                 <div class="skill-bar">
@@ -88,7 +88,7 @@ function Skills() {
                         <p>95%</p>
                     </div>
                     <div class="bar">
-                        <span class="css"></span>
+                        <span class="restful"></span>
                     </div>
                 </div>
             </div>

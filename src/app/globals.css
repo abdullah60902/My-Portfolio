@@ -581,25 +581,35 @@ section {
 }
 
 .skill-bar .bar .html {
-    width: 89%;
-    animation: html 3s;
+    width: 100%;
+    animation: html 9s;
 }
 
-.skill-bar .bar .figma {
-    width: 70%;
-    animation: figma 3s;
+.skill-bar .bar .React {
+    width: 82%;
+    animation: React 6s;
 
 }
 
 .skill-bar .bar .javascript {
     width: 78%;
-    animation: javascript 4s;
+    animation: javascript 6s;
+
+}
+.skill-bar .bar .restful {
+    width: 95%;
+    animation: restful 8s;
+
+}
+.skill-bar .bar .solving {
+    width: 75%;
+    animation: solving 6s;
 
 }
 
 .skill-bar .bar .css {
     width: 82%;
-    animation: css 5s;
+    animation: css 7s;
 
 }
 
@@ -882,16 +892,32 @@ footer a i {
     }
 }
 
-@keyframes figma {
+@keyframes restful {
     0% {
         width: 0%;
     }
 
     100% {
-        width: 70%;
+        width: 95%;
     }
 }
+@keyframes solving {
+    0% {
+        width: 0%;
+    }
 
+    100% {
+        width: 75%;
+    }
+}@keyframes React {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 82%;
+    }
+}
 @keyframes javascript {
     0% {
         width: 0%;

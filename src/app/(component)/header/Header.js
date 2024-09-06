@@ -1,6 +1,8 @@
 "use client"
 import React, { useEffect } from 'react';
 import Image from 'next/image';
+import 'boxicons/css/boxicons.min.css';
+
 function Home() {
     useEffect(() => {
         const words = document.querySelectorAll(".word");
@@ -84,10 +86,10 @@ function Home() {
                     </a>
                 </div>
                 <div className="social-icons">
-                    <a href="#"><i className='bx bxl-facebook'></i></a>
-                    <a href="#"><i className='bx bxl-instagram'></i></a>
-                    <a href="#"><i className='bx bxl-github'></i></a>
-                    <a href="#"><i className='bx bxl-upwork'></i></a>
+                    <a href="https://www.facebook.com/"><i className='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/"><i className='bx bxl-instagram'></i></a>
+                    <a href="https://github.com/abdullah60902"><i className='bx bxl-github'></i></a>
+                    <a href="https://github.com/abdullah60902"><i className='bx bxl-upwork'></i></a>
                 </div>
             </div>
             <div className="home-image">
